@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>𝚂𝚎𝚖𝚘𝚗♡🧸🥀</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scriptjs.js"></script>
+</head>
+<body class="" id="bo">
+   <button onclick="mjkk()" id="hebu">Hello🌝</button>
+       <h1 id="hhr"></h1>
+  
+    <h2 id="hap">Happy Birthday Semon</h2>
+    <h1 class="" id="na">Semon</h1>
+   <div id="con" class="">
+       <div id="box">
+    <span class="mess">
+      <li id="blackf">Style Black </li>
+        <li id="mss">Massage</li>  
+        <li id="anme">Animation ✨</li>   
+        <li onclick="lotrf()">hgjbg</li>    
+           </span>
+       </div>
+   </div> 
+   <!-- 
+  
+              
+               <li >Animation ✨<li>
+    -->
+  
+   
+  
+   <script>
+    /* 
+alert("استنى لحد ما  يبداء يوم عيد ميلادك ✨🥱♥ ~ بس لو مستعجله ممكن تدوسى على الزورار اللى عندك 🥱🌝");   
+    */   
+       function lotrf() {
+     var hhr = document.getElementById("hhr");
+     var hap = document.getElementById("hap");
+     var na = document.getElementById("na");
+    var con = document.getElementById("con");
+var data = new Date();
+let fd = data.getSeconds();
+let mi = data.getMinutes();
+let mii = data.getHours();
+ var day = data.getDate();
+
+
+if(mii == 0) {
+  mii = 12  
+}
+else if(mii > 12) {
+  mii = mii - 12
+}
+/*
+===================
+days
+===================*/
+if(day == 6) {
+ hap.style.display = "block";  
+   con.style.display = "block"; 
+   na.style.display = "block"; 
+   hhr.style.display = "none";
+   hebu.style.display = "none";
+} 
+hhr.innerHTML = mii + " ♡ " + mi + " ♡ " + fd;
+}
+  
+       
+  setInterval(function () {
+   lotrf() 
+},400)     
+function mjkk() {
+   alert("مستعجله على اى ي روح امك 😒 استنى لما تيجى «12 هيا ظيطه ولا اى 🙄"); 
+}
+var mss = document.getElementById("mss");
+mss.addEventListener('click',function() {
+   location.href = "sms.html"; 
+})
+
+       var blackf = document.getElementById("blackf");
+var anme = document.getElementById("anme");
+var bodyy = document.querySelector("body");
+var h = document.querySelector("h1");
+var con = document.getElementById("con");
+var liss = document.querySelectorAll("li");
+
+blackf.addEventListener('click', function() {
+   bodyy.classList.toggle("blakcc");
+   con.classList.toggle("bordblac"); 
+   
+   
+   
+})
+
+
+anme.addEventListener('click', function() {
+  h.classList.toggle("anmee");
+  con.classList.toggle("bord");
+  
+})
+                  /*v2hom*/
+                  
+
+
+
+   </script>
+</body>
+</html>

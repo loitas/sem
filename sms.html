@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Message</title>
+    <link rel="stylesheet" href="smss.css">
+</head>
+<body id="bo" class="">
+    <h1 class="">Semon</h1>
+   <div id="iner">
+    <h2 id="hh11t">Welcome Semon 🙃</h2>
+    
+   </div>
+   
+   <div id="boxsms">
+       
+     
+       <form>
+       <li id="mm1">Message 1</li>
+       <li id="mm2">Message 2</li>
+       <li id="mm3">Message 3</li>
+       <li id="mm4">Message 4</li>
+       <li id="mm5">Message 5</li>
+       <li id="music">Show The Music</li>
+        <li id="sty">Dark Them 🌚</li>
+        <li id="muu">Menu</li>
+        </form>
+        
+   </div>
+   <br>
+   
+   <div id="mus" class="">
+      <audio src="music.mp3" controls autoplay></audio>
+     <audio src="شيرين_-_يا_ليالى_-_MP3.MP3" controls ></audio> 
+       
+   </div>  
+   <script>
+       var music = document.getElementById("music");
+var mus = document.getElementById("mus");
+music.addEventListener('click',function() {
+ mus.classList.toggle("openau");   
+})
+       let mass = "سيمون سيمون سيمون 🙄 القمر بتاعى بقا اللى كبر كمان سنه دا 🙄🌝♥ انتى عارفه لحد الان انا بدور على حاجه توصفك مش لاقى حقيقيم بس لما بتجتمع الحنيه و الجمال مع بعض بيبقو انتى ♥✨ بتطلع لينا سيمون 🌝♥✨"
+let mm1 = document.getElementById("mm1");
+let hh11t = document.getElementById("hh11t");
+mm1.addEventListener('click',function() {
+  hh11t.innerHTML = mass;  
+  hh11t.style.color = "red";
+})
+let massv2 = "كل سنه وانتي طيبه وكل سنه وانتي بركة فى حياة اى حد عرفك كل سنه وانتي مليانه ب الفرح 🌝♥✨كل سنه وانتى محققه اللى نفسك فيه و الاهم بقا  كل سنه وانتى غاليه عليا 🙄♥🌝"
+let mm2 = document.getElementById("mm2");
+
+
+mm2.addEventListener('click',function() {
+  hh11t.innerHTML = massv2; 
+  hh11t.style.color = "#fffc6a"; 
+})
+let massv3 = "عارف انى دايقتك كتير بسبب حاجات كتيره انتى مش حباه انك تشفيها فيا بس حرفيا الظروف الوسخه بتبقى جابرانى اعمل كدا...المهم انا هلخص بس الموضوع...."
+let mm3 = document.getElementById("mm3");
+
+
+mm3.addEventListener('click',function() {
+  hh11t.innerHTML = massv3;  
+  hh11t.style.color = "#ff15d2"; 
+})
+
+let massv4 = "وكنت عاوزك تعرفى...سواء قبلتينى او لا ف انا عاوزك تعرفى ان انا بحبك ❤ ومتعلق بيكى حتى لو انتى مش قبلانى"
+let mm4 = document.getElementById("mm4");
+
+
+mm4.addEventListener('click',function() {
+  hh11t.innerHTML = massv4;  
+  hh11t.style.color = "#fffc6a"; 
+})
+let massv5 = "كل اللى بتمناه ليكى ف السنه الجايه دى  انك تكونى مبسوطه ومحققه احلامك وتكونى ناجحه في حياتك..وبتمنا ان يعدو ايام الامتحانات اللى جايه عليكى دى بخير وما تحسيش بيهم ولا تحسى ب اى خوف او خنقه او اى  حاجه ممكن تزعلك ♥ واشوفك دكتورة قد الدنيا وزى القمر طبعا 🙄♥♥"
+let mm5 = document.getElementById("mm5");
+
+
+mm5.addEventListener('click',function() {
+  hh11t.innerHTML = massv5;  
+  hh11t.style.color = "#fffc6a"; 
+})
+
+var muu = document.getElementById("muu");
+muu.addEventListener('click',function() {
+
+ location.href ='index.html'   
+})
+var sty = document.getElementById("sty");
+var bo = document.getElementById("bo");
+sty.addEventListener('click',function() {
+ bo.classList.toggle("dark"); 
+})
+   </script>
+</body>
+</html>
